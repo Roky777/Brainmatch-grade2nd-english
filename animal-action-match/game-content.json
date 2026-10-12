@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "variant": {
+    "id": "animal-action-match",
+    "title": "Animal Action Match",
+    "subtitle": "A playful animal adventure",
+    "grade": 2,
+    "objective": "Match each animal with its action word.",
+    "assetBase": "./assets/cards/",
+    "menuGreeting": "Ready to find the animal actions?",
+    "matchPrompt": "Match each animal with its action!",
+    "resultMessage": "You found every animal action match."
+  },
+  "play": {
+    "fixedPairs": true,
+    "shufflePairs": true,
+    "difficultyGroups": [
+      {
+        "id": "gentle",
+        "name": "Easy",
+        "description": "4 cards · 2 pairs",
+        "rounds": [
+          "1"
+        ]
+      },
+      {
+        "id": "growing",
+        "name": "Medium",
+        "description": "6 cards · 3 pairs",
+        "rounds": [
+          "2"
+        ]
+      },
+      {
+        "id": "clever",
+        "name": "Hard",
+        "description": "8 cards · 4 pairs",
+        "rounds": [
+          "3"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "picnic": false
+  },
+  "progression": {
+    "xp": {
+      "rewards": {
+        "practice": 14,
+        "challenge": 8
+      },
+      "completionBonus": 2
+    }
+  },
+  "worlds": {
+    "dream": {
+      "id": "dream",
+      "name": "Action Meadow",
+      "shortName": "Meadow",
+      "description": "Animals and their actions",
+      "skin": "meadow",
+      "menuTitleLines": [
+        "Animal",
+        "Action Match"
+      ],
+      "menuKicker": "A playful animal adventure",
+      "cloudAsset": "sparky-seat-cloud-v1.webp",
+      "unlockMessage": "More animal actions are ready!"
+    },
+    "seasons": {
+      "id": "seasons",
+      "name": "Action Parade",
+      "shortName": "Parade",
+      "description": "Animals and their actions",
+      "skin": "parade",
+      "menuTitleLines": [
+        "Action",
+        "Parade"
+      ],
+      "menuKicker": "A playful animal adventure",
+      "cloudAsset": "season-sparky-cloud-v1.webp",
+      "unlockMessage": "More animal actions are ready!"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Action Lab",
+      "shortName": "Lab",
+      "description": "Animals and their actions",
+      "skin": "space-lab",
+      "menuTitleLines": [
+        "Action",
+        "Lab"
+      ],
+      "menuKicker": "A playful animal adventure",
+      "cloudAsset": "neon-sparky-cloud-v1.webp",
+      "unlockMessage": "More animal actions are ready!"
+    }
+  },
+  "categories": {
+    "frog": {
+      "name": "HOP",
+      "detail": "Frog matches HOP.",
+      "color": "#72be94"
+    },
+    "fish": {
+      "name": "SWIM",
+      "detail": "Fish matches SWIM.",
+      "color": "#72be94"
+    },
+    "bird": {
+      "name": "FLY",
+      "detail": "Bird matches FLY.",
+      "color": "#72be94"
+    },
+    "cat": {
+      "name": "CLIMB",
+      "detail": "Cat matches CLIMB.",
+      "color": "#72be94"
+    },
+    "horse": {
+      "name": "TROT",
+      "detail": "Horse matches TROT.",
+      "color": "#72be94"
+    },
+    "lamb": {
+      "name": "LEAP",
+      "detail": "Lamb matches LEAP.",
+      "color": "#72be94"
+    },
+    "snake": {
+      "name": "CRAWL",
+      "detail": "Snake matches CRAWL.",
+      "color": "#72be94"
+    },
+    "monkey": {
+      "name": "SWING",
+      "detail": "Monkey matches SWING.",
+      "color": "#72be94"
+    }
+  },
+  "items": {
+    "picture_frog": {
+      "name": "Frog picture",
+      "asset": "frog.png",
+      "representation": "picture",
+      "animal": "frog"
+    },
+    "action_frog": {
+      "name": "HOP",
+      "asset": "action-hop.svg",
+      "representation": "action",
+      "animal": "frog"
+    },
+    "picture_fish": {
+      "name": "Fish picture",
+      "asset": "fish.png",
+      "representation": "picture",
+      "animal": "fish"
+    },
+    "action_fish": {
+      "name": "SWIM",
+      "asset": "action-swim.svg",
+      "representation": "action",
+      "animal": "fish"
+    },
+    "picture_bird": {
+      "name": "Bird picture",
+      "asset": "bird.png",
+      "representation": "picture",
+      "animal": "bird"
+    },
+    "action_bird": {
+      "name": "FLY",
+      "asset": "action-fly.svg",
+      "representation": "action",
+      "animal": "bird"
+    },
+    "picture_cat": {
+      "name": "Cat picture",
+      "asset": "cat.png",
+      "representation": "picture",
+      "animal": "cat"
+    },
+    "action_cat": {
+      "name": "CLIMB",
+      "asset": "action-climb.svg",
+      "representation": "action",
+      "animal": "cat"
+    },
+    "picture_horse": {
+      "name": "Horse picture",
+      "asset": "horse.png",
+      "representation": "picture",
+      "animal": "horse"
+    },
+    "action_horse": {
+      "name": "TROT",
+      "asset": "action-trot.svg",
+      "representation": "action",
+      "animal": "horse"
+    },
+    "picture_lamb": {
+      "name": "Lamb picture",
+      "asset": "lamb.png",
+      "representation": "picture",
+      "animal": "lamb"
+    },
+    "action_lamb": {
+      "name": "LEAP",
+      "asset": "action-leap.svg",
+      "representation": "action",
+      "animal": "lamb"
+    },
+    "picture_snake": {
+      "name": "Snake picture",
+      "asset": "snake.png",
+      "representation": "picture",
+      "animal": "snake"
+    },
+    "action_snake": {
+      "name": "CRAWL",
+      "asset": "action-crawl.svg",
+      "representation": "action",
+      "animal": "snake"
+    },
+    "picture_monkey": {
+      "name": "Monkey picture",
+      "asset": "monkey.png",
+      "representation": "picture",
+      "animal": "monkey"
+    },
+    "action_monkey": {
+      "name": "SWING",
+      "asset": "action-swing.svg",
+      "representation": "action",
+      "animal": "monkey"
+    }
+  },
+  "rounds": [
+    {
+      "id": "1",
+      "title": "First animal actions",
+      "pairs": [
+        [
+          "frog",
+          "picture_frog",
+          "action_frog"
+        ],
+        [
+          "fish",
+          "picture_fish",
+          "action_fish"
+        ],
+        [
+          "bird",
+          "picture_bird",
+          "action_bird"
+        ],
+        [
+          "cat",
+          "picture_cat",
+          "action_cat"
+        ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "More animal actions",
+      "pairs": [
+        [
+          "horse",
+          "picture_horse",
+          "action_horse"
+        ],
+        [
+          "lamb",
+          "picture_lamb",
+          "action_lamb"
+        ],
+        [
+          "snake",
+          "picture_snake",
+          "action_snake"
+        ],
+        [
+          "monkey",
+          "picture_monkey",
+          "action_monkey"
+        ]
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Animal action challenge",
+      "pairs": [
+        [
+          "frog",
+          "picture_frog",
+          "action_frog"
+        ],
+        [
+          "fish",
+          "picture_fish",
+          "action_fish"
+        ],
+        [
+          "bird",
+          "picture_bird",
+          "action_bird"
+        ],
+        [
+          "cat",
+          "picture_cat",
+          "action_cat"
+        ],
+        [
+          "horse",
+          "picture_horse",
+          "action_horse"
+        ],
+        [
+          "lamb",
+          "picture_lamb",
+          "action_lamb"
+        ],
+        [
+          "snake",
+          "picture_snake",
+          "action_snake"
+        ],
+        [
+          "monkey",
+          "picture_monkey",
+          "action_monkey"
+        ]
+      ]
+    }
+  ]
+}
